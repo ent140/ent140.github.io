@@ -258,6 +258,29 @@ h5 {
 }
 
 
+@media only screen and (max-width: 533px){
+.header {
+	height: 300px;
+	padding: 110px 0px;
+}
+h1 {font-size: 35px; margin: 15px 0px;}
+.oi {display: none;}
+.io {display: block;}
+h4 {font-size: 25px; 
+	margin-bottom: 20px;}
+h5 {font-size: 10px;
+	margin: 0px 0px 0px 45px;
+	}
+
+.dnei {
+	margin: 0px 0px 0px 20px;
+}
+
+.chas {
+	margin: 0px 0px 0px 63px;
+}
+}
+
 #h2 {
 transform: rotate(-90deg);
 bottom: 23px;
