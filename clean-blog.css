@@ -1,0 +1,405 @@
+body {margin:0px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  padding: 100px 0px 0px 0px;
+	background: #F1F1F1;}
+    
+
+
+#preloader {
+position : fixed;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+display : flex;
+align-items : center;
+justify-content : center;
+background : #ffffff;
+z-index : 1000;
+}
+#preloader.hide-preloader {
+animation : hidePreloader 1s;
+}
+#preloader.preloader-hidden {
+display : none;
+}
+@keyframes hidePreloader {
+0% {
+opacity : 1;
+}
+100% {
+opacity : 0;
+}
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+header{width: 100%}
+.n{margin-left: -20px;}
+
+.nav {width: 100%; display: flex; position: fixed; top:0px;left:0px;
+background: #000; margin: 0px; padding: 10px; justify-content: center; z-index: 4}
+#typed {color: white; font-size: 50px; text-align: center; align-items: center;
+margin: 0px; font-weight:900}
+
+p, .typed-cursor {color: white; font-size: 50px;margin:0px; font-weight:900}
+#typed, p, .typed-cursor{font-family: 'Montserrat', sans-serif; text-align:center;}
+a {text-decoration: none}
+
+.sleva {position: absolute; left: 100px;
+margin-top:15px;}
+.icon, .ha {margin: 0px 10px 0px 10px; width:35px;}
+.sprava {position: absolute; right: 100px;
+margin-top:15px;}
+.icon, .ha {opacity:70%; transition: all 0.33s}
+.icon:hover, .ha:hover {opacity: 100%}
+
+.header {
+	height: 400px;
+	margin: 0px;
+	padding: 120px 0px;
+	align-items: center;
+	/*background-size: 400%;
+    animation: gradient 6s ease infinite;}
+
+    @keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}*/
+}
+
+.ja {opacity: 1;}
+
+h1 {margin: 50px 0px 40px 0px; font-size: 72px; font-weight: 700}
+h1{font-family: 'Montserrat', sans-serif; text-align: center;}
+h2 {font-size: 36px; font-weight: 400; color: #000; transition: 0.3s}
+h4 {font-size: 50px; text-align: center; font-weight: 800; margin: 0px}
+@media only screen and (max-width: 1099px){
+.sleva{left: 30px}
+.sprava{right: 30px}
+}
+
+@media only screen and (max-width: 1000px){
+.fa {display:none;}
+}
+
+
+.snow {
+	-webkit-animation: snow 20s linear infinite;
+		  -moz-animation: snow 20s linear infinite;
+		  -ms-animation: snow 20s linear infinite;
+		  animation: snow 20s linear infinite;
+		  background-image: url(snow.png), url(snow2.png);
+		  height: 104%;
+		  width: 100%;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  position: absolute;
+		  z-index: 1;
+}
+
+@keyframes snow {
+			0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+			100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+		}
+
+@-moz-keyframes snow {
+			0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+			100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+		}
+
+@-webkit-keyframes snow {
+			0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+			100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+		}
+
+@-ms-keyframes snow {
+			0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+			100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+		}
+
+.progress-bar {
+position : fixed;
+left : 0;
+z-index : 100;
+bottom : 0;
+transform : translateY(-50%);
+height : 4px;
+background : #F51A41;
+transition: 0.3s;
+}
+
+
+@media only screen and (max-width: 583px) {
+body {padding-top: 60px}
+.n {margin: 0px}
+}
+
+@media only screen and (max-width: 413px) {
+h1 {font-size: 30px; margin-bottom: 0px;}
+}
+
+@media only screen and (max-width: 768px){
+p, .typed-cursor, #typed {font-size: 35px;}
+.sleva{left: 30px; margin-top: 5px}
+.sprava{right: 50px; margin-top: 5px}
+.icon, .ha {margin: 0px 7px 0px 7px; width: 35px;
+opacity: 100%}
+h1 {margin: 50px 0px; font-size:60px;}
+}
+
+@media only screen and (max-width: 533px){
+p, .typed-cursor, #typed {font-size: 30px;}
+.sleva {left: 30px;
+margin-top:3px;}
+.sprava {right: 45px;
+margin-top:3px;}
+.icon {margin: 0px 50px 0px 0px;}
+.ha {margin: 0px 0px 0px 50px}
+.icon, .ha {width: 30px;}
+.icon:hover, .ha:hover {opacity: 70%}
+.sa {display: none}
+h1 {font-size: 45px; margin: 30px 0px;}
+}
+
+@media only screen and (max-width: 533px){
+h1 {font-size: 35px; margin: 15px 0px;}
+.oi {display: none;}
+.io {display: block;}
+}
+
+@media only screen and (max-width: 350px){
+p, .typed-cursor, #typed {font-size: 23px;}
+.sleva, .sprava {margin-top: 0px;}
+.sleva {left: 20px}
+.sprava {right: 35px}
+h1, h2 {margin: 20px; }}
+@media only screen and (max-width: 330px){
+	h1 {font-size: 30px}
+}
+
+
+#time {
+display : block;
+margin-top : 30px;
+}
+#time2 {
+display : none;
+margin-top : 5px;
+}
+@media only screen and (max-width: 470px) {
+body {
+text-align : center;
+}
+#time {
+display : none;
+}
+#time2 {
+display : block;
+}
+}
+
+a, a:hover {
+text-decoration : none !important;
+}
+
+a:hover .box h2{
+color: #054FBC;
+text-shadow: 0px 0px 26px rgba(21, 148, 203, 0.4);}
+
+.body {justify-content: center;}
+.telo{justify-content: center; width: 90%; margin: auto; position: relative;
+z-index: 3; flex-wrap: wrap; display: flex;}
+
+.wtoo{margin: 100px 0px; }
+.wtoest{text-align: center; font-size: 70px;
+	font-style: normal; 
+display: block;}
+
+.chort {
+	color: black;
+}
+
+h2, h3, h5{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.dni {display: flex; justify-content: center;}
+
+h5 {
+	margin: 0px 0px 0px 58px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.dnei {
+	margin: 0px 0px 0px 35px;
+}
+
+.chas {
+	margin: 0px 0px 0px 83px;
+}
+
+
+#h2 {
+transform: rotate(-90deg);
+bottom: 23px;
+left: 23px;
+}
+
+h2 {
+	font-weight: 700;
+	position: absolute;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 32px;
+}
+
+h3 {
+	font-weight: 200;
+	position: absolute;
+	margin-top: 85px;
+	padding: 0px 25px;
+	color: #7D7D7D;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.block {
+	width: 300px;
+	position: relative;
+	margin: 0px;
+	justify-content: center;
+}
+
+.block2 {
+	justify-content: center;
+	display: flex;
+	width: 1300px;
+	margin: 0px;
+}
+
+.victoriny{
+	width: 246px;
+	height: 288px;
+}
+
+.news {
+	width: 246px;
+	height: 228px;
+}
+
+.uchebniki {
+	width: 246px;
+	height: 487px;
+}
+
+.testy {
+	width: 246px;
+	height: 240px;
+}
+
+.bot {
+	width: 246px;
+	height: 395px;
+}
+
+.mems {
+	width: 246px;
+	height: 335px;
+}
+
+.motivation {
+	width: 246px;
+	height: 240px;
+}
+
+.groups {
+	width: 246px;
+	height: 432px;
+}
+
+.marafon {
+	width: 534px;
+	height: 204px;
+}
+
+.igry {
+	width: 246px;
+	height: 204px;
+}
+
+
+.box {
+	margin: 60px 22px;
+	position: relative;
+	transition: transform 0.3s; 
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 30px;
+	justify-content: center;
+	transition: all 0.33s;
+}
+
+#box2 {
+	margin: 0px 30px;
+	display: flex;
+}
+
+#box3 {
+	margin: 0px 30px;
+}
+
+#h2{width: 6%; margin: 0px 0px 0px 10px; }
+#h3{width: 82%; position: relative; padding: 25px 0px 37px 40px; text-align: left; margin-top: 0px;}
+#razvl {
+	padding: 0px 30px;
+}
+
+.box:hover {transform: scale(0.95);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+.telo2 {display: none; position: relative;z-index: 3;}
+
+
+*{box-sizing: border-box;}
+
+
+@media only screen and (max-width: 1000px) {
+	.telo {display: none;}
+	.telo2 {display: block; width: 90%; margin: auto;}
+	.box2 {width: 100%; margin-top:10%; transition: all 0.33s}
+	.box2:hover {transform: scale(0.9);}
+}
+
+::-moz-selection {
+color : #fff;
+background : #0085A1;
+text-shadow : none;
+}
+::selection {
+color : #fff;
+background : #0085A1;
+text-shadow : none;
+}
+a:hover {
+text-decoration : none;
+color : #0085A1;
+}
