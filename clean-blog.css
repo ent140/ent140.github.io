@@ -396,9 +396,6 @@ h3 {
 	padding: 0px 30px;
 }
 
-.box:hover {transform: scale(0.95);
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-}
 .telo2 {display: none; position: relative;z-index: 3;}
 
 
